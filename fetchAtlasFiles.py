@@ -1,7 +1,6 @@
-
 import argparse
-from shutil import copy
 from os import getcwd, path
+import subprocess
 
 # Parser stuff that took way too long to figure out...
 parser = argparse.ArgumentParser()
@@ -16,20 +15,22 @@ args = parser.parse_args()
 
 # Fields for which files to get
 resourcePath = "content/FIELD/"
-atlasFileEnding = "*__atlas.png"
+atlasFilePattern = "*__atlas.png"
 
-saveFolder = "/atlasFiles"
+saveFolder = "/atlasFiles/"
 
 # Prepare the needed paths using the pathlib library
-
-rawSource = args.gamepath + resourcePath + atlasFileEnding
+rawSource = args.gamepath + resourcePath + atlasFilePattern
 rawDestination = getcwd() + saveFolder
 
+fileNames = []
+
 source = path.normpath(rawSource)
-destination = path.normpath(rawDestination)
+destination = path.normpath(rawDestination) + "\\"
 
 print("Source: " + str(source))
 print("Final Destination " + str(destination))
 
 # actual file copy command that was a single line in cmd
-copy(source, destination)
+
+subprocess.run(["copy", source, destination], shell=True)
