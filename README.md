@@ -1,11 +1,10 @@
-# Grandia Upscaler
+# Grandia Remastered Redux
 
-This is a repository for work on a software that can upscale the assets from the 2019 Remaster from the 1998 game Grandia
+This is a repository for the port of Grandia Redux into the 2019 Released Grandia HD Remaster
+
+# Requirements
+
 
 ## Todo
 
-+ Collecting the assets
-+ Splitting the atlas files into lots of single files
-+ Checking for duplicates
-+ Downscaling the single asset back into the small picture format
-+ Stitching together the files to form them back into the needed structure 
+- Write TODO list
