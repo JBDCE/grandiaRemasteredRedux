@@ -1,0 +1,9 @@
+
+Item Descriptions hidden inside battle/bxxx.bbgh files
+
+Character Starting mp inside bin/mchar.dat
+
+field/Windt.bin Modded Item Effects
+
+battle/M_DAT.bin Enemy HP EXP Drops NOT ALL
+
