@@ -7,4 +7,5 @@ This is a repository for the port of Grandia Redux into the 2019 Released Grandi
 
 ## Todo
 
-- Write TODO list
+- Write Proper Readme
+- Todo section was moved into "Projects" tab
