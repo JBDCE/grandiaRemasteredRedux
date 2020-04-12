@@ -7,3 +7,7 @@ field/Windt.bin Modded Item Effects
 
 battle/M_DAT.bin Enemy HP EXP Drops NOT ALL
 
+Modded Attack names need to be replaced inside of TEXT/EN/strings.txt
+
+strings.txt is actually requiered
+
