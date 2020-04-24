@@ -1,69 +1,67 @@
-
-
 REMASTER_MDAT = open("TestFileStructure/original_M_DAT.BIN", 'rb')
 REDUX1_MDAT = open("TestFileStructure/redux1_M_DAT.BIN", 'rb')
 REDUX2_MDAT = open("TestFileStructure/redux2_M_DAT.BIN", 'rb')
-
+NAMES_TXT = open("TestFileStructure/names.txt", 'r')
 
 redux1Bytes = []
 redux2Bytes = []
 remasterBytes = []
 
+protectedBytes = []
+
+allowedChars = [32]
+for i in range(65, 91):
+    allowedChars.append(i)
+for i in range(97, 123):
+    allowedChars.append(i)
+
 
 def populateByteLists():
-    global remasterBytes, redux1Bytes, redux2Bytes
+    global redux1Bytes, redux2Bytes, remasterBytes, protectedBytes
 
-    remasterBytes = bytearray(REMASTER_MDAT.read())
-    # the three files should all be equal in length
+    rawBytes = REMASTER_MDAT.read()
+    names = NAMES_TXT.readlines()
 
-    redux1Bytes = bytearray(REDUX1_MDAT.read())
-    assert len(redux1Bytes) == len(remasterBytes), "Redux1_MDAT is the wrong length"
+    for name in names:
+        name = name.rstrip()
+        byteName = bytes(name, encoding='ascii')
+        startAddress = rawBytes.find(byteName)
 
-    redux2Bytes = bytearray(REDUX2_MDAT.read())
-    assert len(redux2Bytes) == len(remasterBytes), "Redux1_MDAT is the wrong length"
+        if startAddress == -1:
+            print(name + " not found in M_DAT")
+        else:
+            protectedBytes += list(range(startAddress, startAddress+len(name)))
+
+    remasterBytes = bytearray(rawBytes)
+
+    # the three files should all be equal in l ength
+    rawBytes = REDUX1_MDAT.read()
+    redux1Bytes = bytearray(rawBytes)
+    assert len(redux1Bytes) == len(remasterBytes),\
+        "Redux1_MDAT is the wrong length"
+
+    rawBytes = REDUX2_MDAT.read()
+    redux2Bytes = bytearray(rawBytes)
+    assert len(redux2Bytes) == len(remasterBytes),\
+        "Redux2_MDAT is the wrong length"
 
     print("Remaster lenght: " + str(len(remasterBytes)))
 
 
-def getString(barray, address):
-    value = ""
-    #  for i in range(-4, 6, 1):
-    #      value += chr(barray[address + i])
-
-    # Find End of the current Text
-    i = 0
-    end = ''
-    while barray[address + i] > 31:
-        end += chr(barray[address + i])
-        i += 1
-
-    # Find beginning of current Text^
-    i = -1
-    beginning = ''
-    while barray[address + i] > 31:
-        beginning += chr(barray[address + i])
-        i -= 1
-
-    value = beginning[::-1] + end
-
-    return value
-
-
-def performComparison():
-    global remasterBytes, redux1Bytes, redux2Bytes
+def performChanges():
+    global remasterBytes, redux1Bytes, redux2Bytes, protectedBytes
     outputBytes = [b'\x00'] * len(remasterBytes)
 
-
-    i = 0
-    j = 0
-
-    register = []
     # Iterate through all the bytes
     for address in range(len(remasterBytes)):
 
+        # The address is flagged in the protected bytes list
+        # No change to the original file is made
+        if(address in protectedBytes):
+            outputBytes[address] = remasterBytes[address]
 
         # All three files are the same so no change was made
-        if((remasterBytes[address] == redux1Bytes[address]) and
+        elif((remasterBytes[address] == redux1Bytes[address]) and
                 (remasterBytes[address] == redux2Bytes[address])):
             outputBytes[address] = remasterBytes[address]
 
@@ -72,58 +70,16 @@ def performComparison():
                 (remasterBytes[address] == redux2Bytes[address])):
             outputBytes[address] = redux1Bytes[address]
 
-            if (outputBytes[address] > 65 and outputBytes[address] < 90) or (outputBytes[address] > 97 and outputBytes[address] < 122):
-                j += 1
-                if j == 4:
-                    i += 1
-                    register.append({
-                        'address': hex(address),
-                        'sourceFile': "redux1", 
-                        'original:': getString(remasterBytes, address),
-                        'redux': getString(redux1Bytes, address)
-                        }
-                    )
-            else:
-                j = 0
-
         # Take changes from redux2
         elif((remasterBytes[address] == redux1Bytes[address]) and
                 (remasterBytes[address] != redux2Bytes[address])):
             outputBytes[address] = redux2Bytes[address]
-
-            if (outputBytes[address] > 65 and outputBytes[address] < 90) or (outputBytes[address] > 97 and outputBytes[address] < 122):
-                j += 1
-                if j == 4:
-                    i += 1
-                    register.append({
-                        'address': hex(address),
-                        'sourceFile': "redux2", 
-                        'original:': getString(remasterBytes, address),
-                        'redux': getString(redux2Bytes, address)
-                        }
-                    )
-            else:
-                j = 0
 
         # Both files differ from the remaster but both contain the same data
         elif((remasterBytes[address] != redux1Bytes[address]) and
                 (remasterBytes[address] != redux2Bytes[address]) and
                 (redux1Bytes[address] == redux2Bytes[address])):
             outputBytes[address] = redux1Bytes[address]
-
-            if (outputBytes[address] > 65 and outputBytes[address] < 90) or (outputBytes[address] > 97 and outputBytes[address] < 122):
-                j += 1
-                if j == 4:
-                    i += 1
-                    register.append({
-                        'address': hex(address),
-                        'sourceFile': "redux1", 
-                        'original:': getString(remasterBytes, address),
-                        'redux': getString(redux1Bytes, address)
-                        }
-                    )
-            else:
-                j = 0
 
         # Both files are diffrent and the redux files dont align either
         # this should never happen
@@ -132,16 +88,16 @@ def performComparison():
                 (redux1Bytes[address] != redux2Bytes[address])):
             print("This should never happen address: " + str(address))
             outputBytes[address] = remasterBytes[address]
-    print(i)
+
     return outputBytes
 
 
 populateByteLists()
 
-outputList = performComparison()
+outputList = performChanges()
 
 # Write the binary information to new output file
-with open("output_M_DAT.BIN", 'wb+') as outputFile:
+with open("TestFileStructure/output_M_DAT.BIN", 'wb+') as outputFile:
     for byte in outputList:
         tmp = byte.to_bytes(1, 'big')
         outputFile.write(tmp)
