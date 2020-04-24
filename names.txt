@@ -1,0 +1,994 @@
+Gaia Ape
+GAIA APE
+Gaia Horn
+GAIA HORN
+Dragonoid
+DRAGONOID
+Gaia Drago
+G. DRAGO
+Dragon Knight
+DRAGONITE
+Mountain Ape
+MT. APE
+Yeti
+YETI
+Black Beret
+BLK BERET
+Rock Man
+ROCK MAN
+Magma Man
+MAGMA MAN
+Iron Giant
+IRON GIAN
+Cactus Man
+CACTUSMAN
+Vanatos
+VANATOS
+Gaia Man
+GAIA MAN
+Medusa Dancer
+MEDUSA
+Lilith
+LILITH
+Naga Queen
+NAGAQUEEN
+Hyena Man
+HYENA MAN
+Wolfman
+WOLFMAN
+Jackal
+JACKAL
+Red Devil
+RED DEVIL
+Blue Devil
+BLU DEVIL
+Nyalmot
+NYALMOT
+Pink Mage
+PINK MAGE
+Shaman
+SHAMAN
+Layelah
+LAYELAH
+Pteranobone
+TERANOBON
+Bird Skull
+BIRDSKULL
+Skeleton
+SKELETON
+Zombie
+ZOMBIE
+Lich
+LICH
+Gaia Zombie
+G. ZOMBIE
+Warp Man
+WARP MAN
+Gaia Knight
+G. KNIGHT
+Spacetime Armor
+SPACETIME
+Ghostoid
+GHOSTOID
+Vengeful Spirit
+VENGEFUL
+Ghost
+GHOST
+Lost Soul
+LOST SOUL
+Critter
+CRITTER
+Will-O'-Wisp
+WILLOWISP
+Hot Dog
+HOT DOG
+Fire Hound
+FIREHOUND
+Cerberus
+CERBERUS
+Snow Boar
+SNOW BOAR
+King Horn
+KING HORN
+Milda
+MILDA
+Glug Bird
+GLUG BIRD
+Thud Bird
+THUD BIRD
+Flap Bird
+FLAP BIRD
+Sphytaros
+SPHYTAROS
+Sphynx
+SPHYNX
+Guardian
+GUARDIAN
+Land Slug
+LAND SLUG
+Huge Pupa
+HUGE PUPA
+Gaia Slug
+G. SLUG
+Gaia Devil
+G. DEVIL
+Toad Demon
+TOADEMON
+Satan
+SATAN
+Baby Bat
+BABY BAT
+Vampire Bat
+VAMPIRE
+Sonic Bat
+SONIC BAT
+Magic Head
+MAGICHEAD
+Gaia Brain
+G. BRAIN
+Brain Bat
+BRAIN BAT
+Clay Bird
+CLAY BIRD
+Rock Bird
+ROCK BIRD
+Emerald Bird
+EMRLDBIRD
+Sweet Moth
+SWEETMOTH
+Dizzy Moth
+DIZZYMOTH
+Giant Moth
+GIANTMOTH
+Plop Mold
+PLOP MOLD
+Mold Bird
+MOLD BIRD
+Gaia Mold
+GAIA MOLD
+Marna Bug
+MARNA BUG
+Beetlebug
+BEETLEBUG
+Metal Beetle
+METL BETL
+Zil Scorpion
+ZIL SCORP
+Scissorlock
+SCISRLOCK
+Gaia Demon
+G. DEMON
+Crimsona
+CRIMSONA
+Lesser Crab
+LESR CRAB
+Gaia Alien
+G. ALIEN
+Spyder
+SPYDER
+Black Widow
+BK. WIDOW
+Tarantula
+TARANTULA
+Ammonite
+AMMONITE
+Mad Snail
+MAD SNAIL
+Gaia Cyst
+GAIA CYST
+Sea Jelly
+SEA JELLY
+Mud Jelly
+MUD JELLY
+Skip
+SKIP
+Hermit Crab
+HRMT CRAB
+Scarab
+SCARAB
+Gaia Cancer
+G. CANCER
+Sea Star
+SEA STAR
+Starfish
+STARFISH
+Gaia Star
+GAIA STAR
+Blue Kite
+BLUE KITE
+Manta Ray
+MANTA RAY
+Stingray
+STINGRAY
+Sand Diver
+SAND DIVR
+Sand Man
+SAND MAN
+Gaia Scorpion
+G.SCORPIO
+Giant Centipede
+CENTIPEDE
+Inchworm
+INCHWORM
+Roadcrawler
+ROADCRAWL
+Spitting Cobra
+COBRA
+Pit Viper
+PIT VIPER
+Skip
+SKIP
+Sand Worm
+SAND WORM
+Sand Snake
+SANDSNAKE
+Gaia Snake
+G. SNAKE
+Chameleon
+CHAMELEON
+Alligator
+ALLIGATOR
+Salamadile
+SALAMADIL
+Gill Newt
+GILL NEWT
+Oopa-Loopa
+OOPALOOPA
+Gaia Fly
+GAIA FLY
+Horned Toad
+HORN TOAD
+Mad Frog
+MAD FROG
+Toad King
+TOAD KING
+Hippocamp
+HIPPOCAMP
+Coelacanth
+COELACANT
+Gaia Cactus
+G. CACTUS
+Green Slime
+GRE SLIME
+Purple Slime
+PUR SLIME
+Red Slime
+RED SLIME
+Grim Haze
+GRIM HAZE
+Gas Cloud
+GAS CLOUD
+Mist Wraith
+WRAITH
+Odd Bird
+ODD BIRD
+Birdrake
+BIRDRAKE
+Dodo
+DODO
+Slipple
+SLIPPLE
+Gripple
+GRIPPLE
+Stuttle
+STUTTLE
+Ent
+ENT
+Mist Guard
+MIST GARD
+Killer Tree
+KILR TREE
+Private
+PRIVATE
+Sergeant
+SERGEANT
+Elite Officer
+OFFICER
+Klepp Soldier
+K.SOLDIER
+Elite Klepp
+ELITE K.
+Klepp Knight
+K. KNIGHT
+Lizard Rider
+LZRD RIDR
+Mad Rider
+MAD RIDER
+Klepp Rider
+K. RIDER
+Squid King
+SQUIDKING
+Right Tentacle
+R.TENTACL
+Left Tentacle
+L.TENTACL
+Kraken
+KRAKEN
+Right Tentacle
+R.TENTACL
+Left Tentacle
+L.TENTACL
+Ganymede
+GANYMEDE
+Ganymede
+GANYMEDE
+Skip
+SKIP
+Mad Turtle
+MADTURTLE
+Mad Turtle
+MADTURTLE
+Gaia Bird
+GAIA BIRD
+Gargoyle
+GARGOYLE
+Gargoyle
+GARGOYLE
+Madragon
+MADRAGON
+Madragon
+MADRAGON
+Skip
+SKIP
+Phantom Dragon
+P. DRAGON
+Phantom Dragon
+P. DRAGON
+Skip
+SKIP
+Massacre Machine
+MASSACRE
+Eye
+EYE
+Massacre Machine
+MASSACRE
+Eye
+EYE
+Serpent
+SERPENT
+Mean Head
+MEAN HEAD
+Hot Head
+HOT HEAD
+Nice Head
+NICE HEAD
+Bad Head
+BAD HEAD
+Hydra
+HYDRA
+Peril Head
+PERL HEAD
+Hot Head
+HOT HEAD
+Nice Head
+NICE HEAD
+Awful Head
+AWFULHEAD
+Trent
+TRENT
+Arm
+ARM
+Flower
+FLOWER
+Gaia Trent
+G. TRENT
+Arm
+ARM
+Flower
+FLOWER
+Lord's Ghost
+L'S GHOST
+Lord's Ghost
+L'S GHOST
+Wand
+WAND
+Mage King
+MAGE KING
+Mage King
+MAGE KING
+Wand
+WAND
+Ruin Guard
+RUIN GARD
+Ax
+AX
+Skip
+SKIP
+Boomerang
+BOOMERANG
+Great Susano-o
+SUSANO-O
+Ax
+AX
+Iron Ball
+IRON BALL
+Skip
+SKIP
+Chang
+CHANG
+Gadwin
+GADWIN
+Gadwin
+GADWIN
+Kung Fu Master
+KUNG FU M
+Mullen
+MULLEN
+Saki
+SAKI
+Saki
+SAKI
+Mio
+MIO
+Mio
+MIO
+Nana
+NANA
+Nana
+NANA
+Grinwhale
+GRINWHALE
+Lure
+LURE
+Slug Fish
+SLUG FISH
+Lure
+LURE
+Baal
+BAAL
+Baal
+BAAL
+Gaia Tentacle
+G.TENTACL
+Baal
+BAAL
+Gaia Tentacle
+G.TENTACL
+Gaia Tentacle
+G.TENTACL
+Gaia Battler
+G.BATTLER
+Right Hand
+R. HAND
+Left Hand
+L. HAND
+Gaia Battler
+G.BATTLER
+Right Hand
+R. HAND
+Left Hand
+L. HAND
+Gaia Battler
+G.BATTLER
+Right Hand
+R. HAND
+Left Hand
+L. HAND
+Gaia Battler
+G.BATTLER
+Right Hand
+R. HAND
+Left Hand
+L. HAND
+Gaia Core
+GAIA CORE
+Mega Gaia
+MEGA GAIA
+Giga Gaia
+GIGA GAIA
+Gaia Tentacle
+G.TENTACL
+Evil Gaia
+EVIL GAIA
+Gaia Core
+G. CORE 6
+Gaia Core
+G. CORE 7
+Gaia Armor
+G. ARMOR
+Eye
+EYE
+Gaia Slime
+G. SLIME
+Combatant
+COMBATANT
+Gaia Tree
+GAIA TREE
+Gaia Beetle
+G. BEETLE
+Leviathan
+LEVIATHAN
+Right Tentacle
+R.TENTACL
+Left Tentacle
+L.TENTACL
+Orc
+ORC
+Orc King
+ORC KING
+Dom Orc
+DOM ORC
+1-Tentacle Attack
+2-Tentacle Attack
+3-Tentacle Attack
+4-Tentacle Attack
+4-Head Attack
+Acid Gas
+Aim Cut
+All Together!
+Atomic Shot
+Back Kick
+Balloon
+Beat Attack
+Big Dog
+Bite
+Block Attacks
+Body Blow
+Body Slam
+Bomb Throw
+Bombs Away
+Boomerang
+Breath
+Burst Shot
+Chain Kick
+Clay Breath
+Clay Feather
+Cloud Attack
+Combination
+Combo Attack
+Confuse Wing
+Coverup
+Crazy Dance
+Critical Hit
+Crush
+Crushing Bite
+Curl Defense
+Curl Gas
+Curl Laser
+Curl Recover
+Dark Breath
+Dart Feather
+Deadly Stink
+Deadly Temptation
+Dead Circle
+Death Mark
+Death Spear
+Death Tornado
+Delay Gas
+Demon Kick
+Demon Throw
+Disease Germs
+Divide
+Diving
+Dizzy Gas
+Dizzy Spin
+Dizzy Tentacle
+Doze Cut
+Dragon Cut
+Drop Kick
+Earthquake
+Earthrend
+Earth Attack
+Earth Pound
+Ectoplasm
+Egg Smash
+Electric Shock
+Electric Yo-Yo
+Emerald Bomb
+Entice
+Eruption Cut
+Feather Shuriken
+Fire Breath
+Fire Hand
+Fire Orb
+Fire Time
+Flame Breath
+Flame Howl
+Flame Shot
+Flap Twister
+Flight Bomb
+Flower Beam
+Flower Laser
+Flying Dragon Cut
+Frog Lullaby
+Full-Moon Cut
+Gaia Fang
+Gaia Power
+Gaia Strike
+Gaia Tail
+Germ Spores
+Glide Attack
+Goaround
+Gooey Fluid
+Grand Cross
+Grand Heal
+Grapple Nut
+Gummy Fluid
+Hammer Shot
+Head Crash
+Head Dance
+Head Step
+Heavy Blow
+Heavy Feather
+Hide
+Hoist Heel
+Hoparound
+Hot Gas
+Hurricane
+Hurricane Mixer
+Hyper Lance
+Illusion
+Invisible
+Killer Bite
+Killer Breath
+Killer Tackle
+Kill Stun Gun
+Laser Eye
+Lava Throw
+Lean Over
+Life Drain
+Lightning
+Lightning Claw
+Mad Tackle
+Magic Block
+Magic Block Cut
+Magic Block Orb
+Magic Block Wing
+Magic Cut
+Mana Capture
+Mana Drain
+Max Lariat 
+Milda Hit
+Move Block Wing
+Multiply
+Neck-a-Neck Breath
+Needles
+Nut Bomb
+Nut Throw
+Nyalmot Throw
+Oxy Gas
+Oxy Spores
+Paralyze Fluid
+Paralyze Gas
+Paralyze Spear
+Para Tail
+Plague Fluid
+Plague Lick
+Plague Spores
+Poison Bite
+Poison Fluid
+Poison Gas
+Poison Lance
+Poison Quills
+Poison Scales
+Poison Spear
+Poison Spores
+Poke Attack
+Power Drain
+Power Lariat
+Prickle
+Prickle Spin
+Psychokinesis
+Quick Quills
+Random Fire
+Random Nut
+Random Shuriken
+Ray of Ruin
+Ray Spread
+Recover Gas
+Red Slime Gas
+Riddle
+Rising Dragon Cut
+Rock Feather
+Rock Throw
+Runaround
+Run Amok
+Rush Attack
+Rust Gas
+Rust Scales
+Sandstorm
+Sandwave
+Sand Shower
+Scissors Attack
+Seed Smash
+Shocksword
+Shockwave
+Shock Bomb
+Shooting Thorns
+Shoot Quills
+Shout!
+Silk Orb
+Skiparound
+Slapstick Home Run
+Slap Stick
+Slash Mace
+Sleep Gas
+Sleep Pollen
+Slime
+Slip Away
+Snowball Throw
+Solo Screw
+Sonar
+Sonar Flutter
+Sonic Boom
+Spew
+Spew Poison
+Spew Slime
+Spinning Yo-Yo
+Spin Attack
+Spin Cut
+Spin Kick
+Spin Mace
+Spin Needle
+Spin Strike
+Spin Tentacle
+Sticky Fluid
+String Orb
+Stun Gas
+Stun Gun
+Stun Mist
+Suck Blood
+Suck In
+Sudden Death
+Super Balloon
+Swing
+Sword Dance
+Tail Attack
+Tap Dance
+Tentacle
+Tentacle Attack
+Tentacle Swing
+Tentacle Thrust
+The Dead Stir
+Thrust
+Tornado
+Trinity Attack
+Twin Typhoon
+Twister
+Twister Tentacle
+Vanish
+Wave Cut
+Wave Rip
+Wing Beat
+Wing Sonar
+X-Ray
+Yo-Yo
+1-TENTACL
+2-TENTACL
+3-TENTACL
+4-TENTACL
+4HEAD ATK
+ACID GAS
+AIM CUT
+ATOMICSHT
+BACK KICK
+BALLOON
+BEAT ATK
+BIG DOG
+BITE
+BLOCK ATK
+BODY BLOW
+BODY SLAM
+BOMBTHROW
+BOMB AWAY
+BOOMERANG
+BREATH
+BURSTSHOT
+CHAINKICK
+CLAYBRETH
+CLAYFETHR
+CLOUD ATK
+COMBO
+COMBO ATK
+CONF WING
+COVERUP
+CRAZYDANC
+CRIT HIT
+CRUSH
+CURLLASER
+CURL DEF.
+CURL GAS
+CURL RECO
+CRUSHBITE
+DART FEAT
+DEADSTINK
+DEAD STIR
+DEATHMARK
+DEATH SP
+DED CIRCL
+DED TEMPT
+DELAY GAS
+DEMNTHROW
+DEMONKICK
+DETH NADO
+DISE GERM
+DIVIDE
+DIVING
+DIZZYSPIN
+DIZZY GAS
+DIZ TENT
+DK BREATH
+DOZE CUT
+DRAGN CUT
+DROP KICK
+EARTHREND
+EARTH ATK
+ECTOPLASM
+EGG SMASH
+ELEC YOYO
+EMRLD BOM
+ENTICE
+ERTHPOUND
+ERUPT CUT
+FIREBREAT
+FIREBRETH
+FIRE HAND
+FIRE ORB
+FIRE TIME
+FLAMBRETH
+FLAMEHOWL
+FLAMESHOT
+FLIT BOMB
+FLOWRBEAM
+FLOWRLASR
+FLY CUT
+FSHURIKEN
+GAIASTRYK
+GAIA FANG
+GAIA POWR
+GAIA TAIL
+GERM SPOR
+GLIDE ATK
+GOAROUND
+GOO FLUID
+GRANDHEAL
+GRAPL NUT
+GRNDCROSS
+GUM FLUID
+HAMR SHOT
+HEADCRASH
+HEAD DANC
+HEAD STEP
+HEVYFETHR
+HEVY BLOW
+HIDE
+HOISTHEEL
+HOME RUN
+HOPAROUND
+HOT GAS
+HURRICANE
+HYP LANCE
+ILLUSION
+INVISIBLE
+KILRBRETH
+KILR BITE
+KILR TAKL
+LASER EYE
+LAVATHROW
+LEAN OVER
+LIFEDRAIN
+LIGHTNING
+LULLABY
+MAD TAKL
+MAGC BLOK
+MAGICBLOK
+MAGIC CUT
+MANADRAIN
+MANA CAPT
+MAXLARIAT
+MILDA HIT
+MOON CUT
+MOVE BLOK
+MULTIPLY
+NECKBRETH
+NEEDLES
+NUT BOMB
+NUT THROW
+NYALMOT
+OXY GAS
+OXY SPORE
+QUAKE
+PARA FLID
+PARA GAS
+PARA SP
+PARA TAIL
+PLAG FLID
+PLAG LICK
+PLAG SPOR
+PLAGUE FL
+POISNBITE
+POIS FLID
+POIS QUIL
+POIS SCAL
+POIS SPOR
+POISN GAS
+POISON
+POISON LA
+POISON SP
+POKE ATK
+POWRDRAIN
+PRICKLE
+PSYCHOKIN
+PWRLARIAT
+QUIK QUIL
+QUILLS
+RANDOFIRE
+RAND NUT
+RAYSPREAD
+RAY RUIN
+RECOVER
+RIDDLE
+RISE CUT
+ROCKFETHR
+ROCKTHROW
+RSHURIKEN
+RUNAROUND
+RUN AMOK
+RUSH ATK
+RUST GAS
+RUST SCAL
+SANDSHOWR
+SANDSTORM
+SANDWAVE
+SCISSORS
+SEEDSMASH
+SHOCK
+SHOCKBOMB
+SHOCKSORD
+SHOCKWAVE
+SHOUT!
+SILK ORB
+SKPAROUND
+SLAPSTICK
+SLASHMACE
+SLEEPPOLN
+SLEEP GAS
+SLIME
+SLIME GAS
+SLIP AWAY
+SNOWBALL
+SOLO SCRU
+SONAR
+SONICBOOM
+SPEW
+SPEWSLIME
+SPINSTRYK
+SPIN ATK
+SPIN CUT
+SPIN KICK
+SPIN MACE
+SPIN NEDL
+SPIN TENT
+SPIN YOYO
+STK FLUID
+STRINGORB
+STUN GAS
+STUN GUN
+STUN MIST
+SUCKBLOOD
+SUCK IN
+SUDNDEATH
+SUPR BALL
+SWING
+SWORDANCE
+TAIL ATK
+TAP DANCE
+TENTACLE
+TENTSWING
+TENTTHRST
+TENT ATK
+THORNS
+THRUST
+TOGETHER!
+TORNADO
+TRNTY ATK
+TWISTER
+TYPHOON
+TYPHOON
+VANISH
+WAVE CUT
+WAVE RIP
+WING BEAT
+WING SONR
+X-RAY
+YO-YO
