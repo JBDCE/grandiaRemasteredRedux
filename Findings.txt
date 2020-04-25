@@ -1,13 +1,13 @@
 
-Item Descriptions hidden inside battle/bxxx.bbgh files
+Item Descriptions hidden inside battle/bxxx.bbgh files - Take the last file from the final boss fight so it contains all items
 
-Character Starting mp inside bin/mchar.dat
+Character Starting mp inside bin/mchar.dat - Can be straight copied from the redux disk (Needs checking if d1 or d2)
 
-field/Windt.bin Modded Item Effects
+field/Windt.bin Modded Item Effects - Also a straight copy
 
-battle/M_DAT.bin Enemy HP EXP Drops NOT ALL
+battle/M_DAT.bin Enemy HP EXP Drops NOT ALL - Needs a proper merge with generateM_DAT.py
 
-Modded Attack names need to be replaced inside of TEXT/EN/strings.txt
+Modded Attack names need to be replaced inside of TEXT/EN/strings.txt - output strings should be generated together with the M_DAT file
 
-strings.txt is actually requiered
+
 
