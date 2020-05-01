@@ -1,20 +1,21 @@
 '''
-This file is running the subroutine to generating 
-the Text files needed for the Modded Dialog and 
+This file is running the subroutine to generating
+the Text files needed for the Modded Dialog and
 Hint messages found at the save point around the game
 '''
 
 
 import os
 
+
 def getStartPattern(fileObject):
     fileObject.seek(0, 0)
-    return fileObject.read(PATTERN_LENGHT)
+    return fileObject.read(START_PATTERN_LENGHT)
 
 
 def getEndPattern(fileObject):
-    fileObject.seek(-PATTERN_LENGHT, 2)
-    return fileObject.read(PATTERN_LENGHT)
+    fileObject.seek(-END_PATTERN_LENGHT, 2)
+    return fileObject.read(END_PATTERN_LENGHT)
 
 
 def createFileList(diffFilePath):
@@ -23,20 +24,21 @@ def createFileList(diffFilePath):
         rawInput = diffFile.readlines()
         for line in rawInput:
             if os.path.splitext(line[:-1])[1] == ".MDP":
-                preparedInput.append("FIELD/" + line[:-5])
+                preparedInput.append(line[:-5])
 
     return preparedInput
 
 
-REMASTER_CONTENT_PATH = "TestFileStructure/RemasterGameFiles/content/"
+REMASTER_CONTENT_PATH = "TestFileStructure/RemasterGameFiles/"
 REDUX_BIN_EXTRACT_PATH = "TestFileStructure/ReduxGameFiles/"
-PATTERN_LENGHT = 7
+START_PATTERN_LENGHT = 8
+END_PATTERN_LENGHT = 15
 OUTPUT_PATH = "TestFileStructure/Output/"
 # SOURCE_PATH = "Experiment Files/Remaster/"  # "Experiment Files/ReduxFiles/"
 # DEST_PATH = ""
 
 # Create File list from diff file
-diffFilepath = "ReduxFileList.txt"
+diffFilepath = "FieldDiffFile.txt"
 fileList = createFileList(diffFilepath)
 
 
@@ -46,6 +48,7 @@ for filePath in fileList:
     startPattern = None
     endPattern = None
     preparedPath = REMASTER_CONTENT_PATH + "TEXT/EN/" + os.path.split(filePath)[1] + ".SCN"
+    originalSize = os.path.getsize(preparedPath)
 
     if not os.path.isfile(preparedPath):
         print(filePath + "does not contain text")
@@ -60,9 +63,14 @@ for filePath in fileList:
     with open(REDUX_BIN_EXTRACT_PATH + filePath + ".MDP", 'rb') as fileObject:
         fileContent = fileObject.read()
         startLocation = fileContent.find(startPattern)
-        endLocation = fileContent.find(endPattern)
+        endLocation = fileContent.rfind(endPattern)
 
-        textLength = endLocation - startLocation + PATTERN_LENGHT
+        assert startLocation != -1,\
+            "Start pattern was not found in file: " + filePath
+        assert endLocation != -1,\
+            "End pattern was not found in file: " + filePath
+
+        textLength = endLocation - startLocation + END_PATTERN_LENGHT
         fileObject.seek(startLocation, 0)
         textContent = fileObject.read(textLength)
 
@@ -71,6 +79,9 @@ for filePath in fileList:
     os.makedirs(os.path.dirname(target), exist_ok=True)
     with open(target, 'wb+') as outputFile:
         outputFile.write(textContent)
+
+    # assert os.path.getsize(target) == originalSize,\
+        "Sizes dont match"
 
 # lines = []
 # with open(SOURCE_PATH + "2C00.SCN", 'rb') as f:
