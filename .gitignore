@@ -1,2 +1,4 @@
 TestFileStructure/
 .vscode/launch.json
+.vscode/.ropeproject/objectdb
+Release/
