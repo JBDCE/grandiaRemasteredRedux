@@ -23,6 +23,7 @@ Mount the patched Iso Files with software like [Virtual Clone Drive](https://www
 
 Extract the files from the disks into seperate Folders like this:
 ```
+TestFileStructure
 +---ReduxGameFiles
 |   +---DISK1
 |   |   +---BATLE
@@ -35,6 +36,23 @@ Extract the files from the disks into seperate Folders like this:
 ```
 Just copy over the Folders doing what we are about to do does not need the files inside the root directory
 
+Next to this you want to create a folder called **RemasterGameFiles** and copy over the content file structure. You dont actually need all the files. Just the subfolder TEXT but its important that the structure stays the same.
+
+Your **TestFileStructure** folder should now look something like this:
+```
+TestFileStructure
++---ReduxGameFiles
+|   +---DISK1
+|   |   +---BATLE
+|   |   +---BIN
+|   |   \---FIELD
+|   \---DISK2
+|       +---BATLE
+|       +---BIN
+|       \---FIELD
+\---RemasterGameFiles
+    \---TEXT
+```
 
 ## The easy parts
 
@@ -46,6 +64,12 @@ FIELD/SHOP.BIN
 
 From Disk 2:
 FIELD/WINDT.BIN
+
+## Using the hex editor
+
+Some files got split into multiple ones during the translation part of the remaster. This means that you need to extract the item descriptions from within other files.
+
+
 
 
 ## Using the Code
