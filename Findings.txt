@@ -1,10 +1,15 @@
 
+when copying all files from battle in fight stats are set properly
+for some reason the enemy stats are all saved collectively inside of m_dat.bin and player stats are mirrored over more than 100 files for each battle individually.. What the actual fuck
+
 Item Descriptions hidden inside battle/bxxx.bbgh files - Take the last file from the final boss fight so it contains all items
 
 Character Starting mp inside bin/mchar.dat - Can be straight copied from the redux disk (Needs checking if d1 or d2)
 
 field/Windt.bin Modded Item Effects - Also a straight copy
 field/Shop.bin Shop contents - Straigt copy
+field.mdp files need to be copied else the shop items dont appear
+
 
 battle/M_DAT.bin Enemy HP EXP Drops NOT ALL - Needs a proper merge with generateM_DAT.py
 
@@ -12,16 +17,8 @@ Modded Attack names need to be replaced inside of TEXT/EN/strings.txt - output s
 
 
 
+
 ISSUES:
 
 - Mad Snail Spin attack crashing the game
     Maybe id mismatch between original and remaster needs fix inside mdat.bin
-
-- Army Base save point unusable
-
-- Spells are learned out of order and are not replaced
-
-- Spells like modded Halvah without effect and not granting exp
-
-- Army Base very glitchy and unplayable
-
