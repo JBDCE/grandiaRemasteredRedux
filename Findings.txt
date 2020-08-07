@@ -6,7 +6,8 @@ Item Descriptions hidden inside battle/bxxx.bbgh files - Take the last file from
 
 Character Starting mp inside bin/mchar.dat - Can be straight copied from the redux disk (Needs checking if d1 or d2)
 
-field/Windt.bin Modded Item Effects - Also a straight copy
+field/Windt.bin Modded Item Effects - Notably price in shops Seems to need proper merge between disks
+ Also a straight copy
 field/Shop.bin Shop contents - Straigt copy
 field.mdp files need to be copied else the shop items dont appear
 
