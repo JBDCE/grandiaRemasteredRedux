@@ -16,10 +16,54 @@ battle/M_DAT.bin Enemy HP EXP Drops NOT ALL - Needs a proper merge with generate
 
 Modded Attack names need to be replaced inside of TEXT/EN/strings.txt - output strings should be generated together with the M_DAT file
 
+mchar.dat contains the information about spells learned by the characters but not the listing from the "moves" tab
 
 
+WINDT.BIN Item Stat analysis:
+
+For example the hex for the Lump of coal
+Length 28 Bytes
+
+40 00 76 88 50 C3 3E 80 00 00 00 00 00 00 00 00 0A 24 0B 00 08 00 02 00 02 00 00 00
+
+Some things are double bytes and they are apparently read flipped someway? 40 00 is the Item id and the number is meant to be read as 00 40 these are hex numbers and after converting to decimal this becomes 64 which lines up with the item id in the debug menue
+
+Here is the things i know
+Offset		HexVal		Use from the Debug menue
+0			[00 40] 	Item ID
+2			[88 76]		USE_STATUS (No idea)
+4			[C3 50]		COST
+5			[3E]		ICON-NO
+6 - 14		[80]		(No idea)
+15			[0A]		Para-1 before slash (No idea)
+16			[24]		Para-2
+17			[0B]		Para-3
+18			[00]		Para-4
+
+19			[00 08]		Para-1 after the slash
+21			[00 02]		Para-2
+23			[00 02]		Para-3
+25			[00 00]		Para-4
+
+
+In the appdata directory there is a file beeing created everytime the game is run called console.txt it contains log output from the game
+the main menue is fully loaded after the line 
+loaded texture 'content/bin/codefonts_codefonts__atlas.png'
+possibly usefull to identify the location of character skills
+
+For Loading are 5800
+Possible files are
+5800.mdp (Unlikely as its already pulled from redux)
+s58__.vab
+fc09.dat
+field.bin
+gm1_en.idx
+pgr05.cpr (Most likely canidate as it contains party group information)
 
 ISSUES:
 
 - Mad Snail Spin attack crashing the game
     Maybe id mismatch between original and remaster needs fix inside mdat.bin
+
+
+- Rap gets alheal in his lv 2 magic may be issue in mchar.dat but not sure
