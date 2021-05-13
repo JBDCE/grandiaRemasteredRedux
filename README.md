@@ -2,6 +2,9 @@
 
 This is a repository for the port of Grandia Redux into the 2019 Released Grandia HD Remaster
 
+# Important Note
+None of this is anywhere near stable and currently not working. Main issue with the progress is that the characters still get their old spells unlocked instead of the Redux ones. Any help on this is greatly appreciated.
+
 # Installing from Release
 If you only care about playing the game in the Redux version you can just download the latest release extract the files over folder of the Games download path. 
 Make sure that you backup your save files first as I take no responsibility in you loosing your game files.

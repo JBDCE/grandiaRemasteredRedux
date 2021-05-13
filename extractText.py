@@ -87,3 +87,5 @@ for filePath in fileList:
 # with open(SOURCE_PATH + "2C00.SCN", 'rb') as f:
 #     lines = f.readlines()
 #     print(lines)
+
+# Apparently the output causes issues with the map 4c0c Manual edit at output required should be included in Release 0.4.2
