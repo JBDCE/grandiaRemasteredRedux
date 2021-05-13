@@ -1,9 +1,15 @@
-# Read the cla
-filePathOriginal = ""
-filePath_B = ""
-filePath_C = ""
-filePathOutput = ""
-onConflict = 0
+import sys
+# Read the args
+
+assert len(sys.argv)==6, \
+    "Usage: python3 3FileMerge.py [path_to_original] [path_to_fileB] [path_to_fileC] [Output file] [conflict handle]\n" + \
+        "Conflict handle Syntax:\n1 for take from original\n2 for take from B\n3 for take from C"
+
+filePathOriginal = sys.argv[1]
+filePath_B = sys.argv[2]
+filePath_C = sys.argv[3]
+filePathOutput = sys.argv[4]
+onConflict = sys.argv[5]
 
 # Load the files into bytearrays
 with open(filePathOriginal, 'rb') as A:
@@ -58,7 +64,7 @@ for address in range(len(bytesOriginal)):
         print("Original: " + bytesOriginal[address])
         print("BytesB: " + bytesB[address])
         print("BytesC: " + bytesC[address])
-        
+
         if onConflict==1:
             outputBytes[address] = bytesOriginal[address]
         elif onConflict==2:
