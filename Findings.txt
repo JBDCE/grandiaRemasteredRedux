@@ -67,3 +67,5 @@ ISSUES:
 
 
 - Rap gets alheal in his lv 2 magic may be issue in mchar.dat but not sure
+   Is only an issue if rapp fights in battles not meant for him. Playing through the normal game this does not happen.
+- Lump of coal needs its price adapted otherwise its impossible to buy in the beginning of the game. Fixing it to 250g in release 0.4.8
