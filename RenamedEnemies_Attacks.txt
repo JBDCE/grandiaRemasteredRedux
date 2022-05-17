@@ -1,0 +1,24 @@
+Renamed Enemies:
+70 Dizzy Moth - Sour Moth
+79 Scissorlock - Desert Lord
+180 Peril Head - Sad Head
+
+
+Renames Attacks:
+Atomic Shot - Divide Beam
+Burst Shot - Divide Beam
+Dizzy Gas - Nasty Gas
+Flame Breath - Blast Breath
+Flame Shot - Soul Break
+Life Drain - Soul Eater
+Magic Block Orb - Poison Orb
+Multiply - Summpn
+Paralyze Spear - Thunder Spear
+Poke Attack - Poison Lick
+Random Fire - Energy Leak
+Ray of Ruin - The End?!
+Red Slime Gas - Red Toxic Gas
+Sleep Pollen - Nasty Pollen
+Stun Mist - Green Gas
+Sudden Death - Minus Bite
+Tentacle Attack - Command
