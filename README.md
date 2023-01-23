@@ -5,7 +5,7 @@ This is a repository for the port of Grandia Redux into the 2019 Released Grandi
 # Important Note:
 While being designed to be as close to the Grandia ReDux romhack made by Dunal back in 2011, there are a few differences that did get lost in conversion. This Port is working off of the 3.1/3.0 Version of ReDux
 
-Before trying to install this make sure that you backup your save files first as I take no responsibility in you loosing your progress.
+Before trying to install this make sure that you backup your save files first as I take no responsibility in you losing your progress.
 Your saves on Windows are Located in: ```%APPDATA%/GRANDIA1```
 
 
@@ -29,3 +29,7 @@ Since this is only visual and does not have an easy solution it likely wont get 
 
 # Contacting me:
 If you want to contact me for any reason your best bet is either through creating issues to this repository or writing u/JBDCE on Reddit. Im also active on the Discord channel from the r/Grandia subreddit so you might be able to reach out through there.
+
+# Supporting the Project
+If you are still interested in supporting me financially I have created this Paypal link: https://paypal.me/remasteredRedux
+While paying me is definitely not neccessary I do appreciate every penny you send my way.
