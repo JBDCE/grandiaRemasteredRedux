@@ -12,6 +12,8 @@ Your saves on Windows are Located in: ```%APPDATA%/GRANDIA1```
 # Installing from Release:
 To install this patch, download the latest release package and extract the contents folder into the games install directory. Windows should prompt you to replace 225 Files. Confirming this prompt will install the patch.
 
+You can find the latest release [here](https://github.com/JBDCE/grandiaRemasteredRedux/releases/latest) or in the Releases section to the right or below.
+
 After installing, start up a new playthrough and ensure that Redux was installed properly by Reading the Hint message found at the savepoint in the Port of Parm. It should provide you with some information on Grandia ReDux.
 
 Have fun!
